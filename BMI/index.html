@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beden Kitle Endeksi Hesaplama</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Beden Kitle Endeksi Hesaplama</h1>
+      <form>
+        <p><label>Boyunuz(CM):</label><input type="text" id="height" /></p>
+        <p><label>Kilonuz(KG):</label><input type="text" id="weight" /></p>
+        
+        <button class="Btn">Hesapla</button>
+
+
+        <div id="results"></div>
+        <div id="weight-guide"></div>
+        <h3>Beden Kitle Endeksi Hakkında</h3>
+        <p>18,5 kg/m² ‘nin altındaki sonuçlar: İdeal kilonun altında</p>
+        <p>18,5 kg/m² ile 24,9 kg/m² arasındaki sonuçlar: İdeal kiloda</p>
+        <p>
+          25 kg/m² ile 29,9 kg/m² arasındaki sonuçlar: İdeal kilonun üstünde
+        </p>
+        <p>
+          30 kg/m² ile 39,9 kg/m² arasındaki sonuçlar: İdeal kilonun çok üstünde
+          (obez)
+        </p>
+        <p>
+          40 kg/m² üzerindeki sonuçlar: İdeal kilonun çok üstünde (morbid obez)
+        </p>
+      </form>
+    </div>
+  </body>
+
+  <script src="main.js"></script>
+</html>
